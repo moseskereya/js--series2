@@ -301,3 +301,7 @@ color:white;
   align-items: center;
   
 }
+.title h2{
+    font-family: 'Great Vibes', cursive;
+    letter-spacing: 5px;
+}
