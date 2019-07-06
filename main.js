@@ -26,5 +26,19 @@ function showSlides1() {
 }
 const Hello = document.querySelector('.nav_check')
 const bye = document.querySelector('.container')
+const Myclass = document.querySelector('.nav-responsive');
+const iconBtn = document.querySelector('.btm');
+let Btn = 1;
+iconBtn.addEventListener('click',  function Moses(){
+    if(Btn === 0){
+        Myclass.style.display = 'none'
+        Btn = 1;
+    }else {
+        Myclass.style.display = 'block';
+        Btn = 0;
+    }
+})
+var status = 0;
+showSlides();
 
 
